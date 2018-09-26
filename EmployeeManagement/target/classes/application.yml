@@ -1,0 +1,11 @@
+
+#datasource properties
+
+
+##spring:
+
+  #datasource:
+   # driverClassName: com.mysql.jdbc.Driver
+    #url: jdbc:mysql://localhost/manjudb?useSSL=false
+    #username: root
+    #password: 123456
