@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style> 
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 50%;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+
+.feedback{
+	float:right;
+	margin-right:10%;
+	width:10%;
+	padding:10px;
+	background:#1D8ECE;
+	font-family:arial;
+	font-size:24px;
+	border:2px solid black;
+	border-radius:20px;
+
+}
+.heading{
+margin:0 auto;
+width:20%;
+border:2px solid black;
+border-radius:20px;
+text-align:center;
+background:#1D8ECE;
+padding:10px;
+font-family:arial;
+font-size:24px;
+
+}
+
+</style>
+</head>
+<body>
+
+<h1 class="heading">Block the User</h1>
+<h3>Enter the Employee Id or Name :</h3>
+
+<form>
+  <input type="text" name="search" placeholder="Search..">
+</form>
+<h3>Employee Details:</h3>
+
+<table>
+  <tr>
+    <th>Employee ID</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Gender</th>
+    <th>User Name</th>
+    <th>Mobile No</th>
+    <th>Email</th>
+    <th>Role</th>
+    <th>Project Type</th>
+    <th>Project Name</th>
+  
+  </tr>
+  <tr>
+    <td>CSS001</td>
+    <td>John</td>
+    <td>T</td>
+ 	<td>Male</td>
+    <td>johny</td>
+    <td>9090412584</td>
+    <td>abc@gmail.com</td>
+ 
+    <td>Developer</td>
+    <td>PSO</td>
+    <td>EPMO</td>
+  
+  
+  </tr>
+</table>
+
+<br/>
+
+<button class="feedback">Block</button>
+
+</body>
+</html>
